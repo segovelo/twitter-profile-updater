@@ -1,5 +1,10 @@
 ![Twitter Profile Updater](assets/readme-banner.png)
 
+Disclaimer: This repository was cloned from https://github.com/viniciusenari/twitter-profile-updater and is solely the work of Vinicius Koji Enari.
+
+You can follow the tutorial on dev.to blogging platform 
+https://dev.to/viniciusenari/how-i-update-my-twitter-profile-automatically-using-python-5d57
+
 # 🐦 Twitter Profile Updater
 This repository contains code to run a Python bot that updates your Twitter profile. It replaces your banner with images obtained from [NASA's Astronomy Picture of the Day API](https://apod.nasa.gov/apod/astropix.html) and you can also utilize it to update your profile bio. It uses the Tweepy library to access the Twitter API.
 
