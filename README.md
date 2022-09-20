@@ -1,6 +1,6 @@
 ![Twitter Profile Updater](assets/readme-banner.png)
 
-Disclaimer: This repository was cloned from https://github.com/viniciusenari/twitter-profile-updater and is solely the work of Vinicius Koji Enari.
+# Disclaimer: This repository was cloned from https://github.com/viniciusenari/twitter-profile-updater and is solely the work of Vinicius Koji Enari.
 
 You can follow the tutorial on dev.to blogging platform 
 https://dev.to/viniciusenari/how-i-update-my-twitter-profile-automatically-using-python-5d57
