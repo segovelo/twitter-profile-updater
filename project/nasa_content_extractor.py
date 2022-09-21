@@ -15,7 +15,7 @@ class NASAContentExtractor():
     def __init__(self):
         pass
     
-    def reverse(x):
+    def reverse(self, x):
         year = x[:4]
         month = x[5:7]
         day = x[8:]
