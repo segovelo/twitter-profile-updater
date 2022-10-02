@@ -22,8 +22,8 @@ class App():
     def update_profile(self):
         content = self.content_extractor.get_content()
         if not content: return
-        self.image_downloader.download_image(content.imageURL)
+        self.image_downloader.download_image(content.imageURL, content.imageHDURL)
 
-        text = f'Banner photo: {content.title}\nfrom: https://apod.nasa.gov/apod/astropix.html'
+        text = f'Banner photo: {content.title}\nfrom: https://apod.nasa.gov/apod/astropix.html\n{content.date}'
         self.api.update_profile_banner(filename = 'tmp/banner.jpg')
         self.api.update_profile(description = text)
