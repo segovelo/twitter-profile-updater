@@ -32,7 +32,7 @@ source your-env/bin/activate
 
 Install dependencies
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 # 🤖 How to use

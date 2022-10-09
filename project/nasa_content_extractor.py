@@ -1,9 +1,11 @@
+from project import email_handler
 import requests
 from dotenv import load_dotenv
 import os
 load_dotenv()
 
 api_key = os.getenv('NASA_API_KEY')
+email_handler = email_handler.Email()
 
 class Content():
     def __init__(self, title = None, imageURL = None, imageHDURL = None, date = None):
@@ -24,6 +26,7 @@ class NASAContentExtractor():
 
     def get_content(self):
         json = requests.get(f'https://api.nasa.gov/planetary/apod?api_key={api_key}').json()
+        email_handler.send(json)
         if json['media_type'] != 'image':
             return None
 
